@@ -27,7 +27,7 @@ import  pyautogui
 HOST = "localhost"
 USER = pyautogui.prompt("Enter Username")
 PASSWORD = pyautogui.password("Enter login password") 
-DATABASE = "hotel"
+DATABASE = pyautogui.prompt("Enter Database name")
 
 
 def get_database():
